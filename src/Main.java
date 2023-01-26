@@ -1,11 +1,11 @@
-import static com.antonromanov.algorithm.leetcode.easy.t496.nextgreaterelement.bestsolution.withstack.Solution.nextGreaterElementBestSolution;
+import static com.antonromanov.algorithm.leetcode.easy.t1672.reachestcustomer.Solution.maximumWealth;
 
 public class Main {
     public static void main(String[] args) {
 
-        int[] a = {4,1,2};
-        int[] b = {1,3,4,2};
-        int[] res = nextGreaterElementBestSolution(a, b);
-        System.out.println("Hello world!");
+        int[][] table = {{1, 2}, {1, 3}, {1, 4}, {1, 5}, {1,6},{6,7}};
+        // int[] arr = {1, 4, 2, 5, 3};
+
+        maximumWealth(table);
     }
 }
